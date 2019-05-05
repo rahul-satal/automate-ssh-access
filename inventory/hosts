@@ -1,0 +1,7 @@
+localhost ansible_connection=local
+
+[remote_instances]
+instance1
+instance2
+instance3
+

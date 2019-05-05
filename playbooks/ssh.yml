@@ -1,0 +1,12 @@
+---
+
+  - hosts: localhost
+    gather_facts: False
+    remote_user: remote_admin_user
+    become: true
+    become_user: root
+    roles:
+      - ssh-access
+    vars:
+      user_name: "rahul_test" 
+      user_description: "Rahul Test"  
